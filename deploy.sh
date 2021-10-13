@@ -25,7 +25,7 @@ fi
 git init
 git add -A
 git commit -m "部署"
-git push -f git@github.com:jly61/jly61.github.io.git master:gh-pages # 推送到github gh-pages分支
+git push -f githubUrl master:gh-pages # 推送到github gh-pages分支
 
 cd -
 rm -rf docs/.vuepress/dist
